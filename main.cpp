@@ -16,7 +16,7 @@ int main(int argc, char ** argv) {
     unsigned int image_size;
 
     int camera_type = 0; //0:ITU, 1:UVC	            // 2. If I change it camera_type = 1 the will have other things? --can not photo
-    int width=640;                                  // We can change the 
+    int width=640;                                  // We can change the ,but this is yuv's video.
     int height=480;
 
     if(argc != 2)                                   //3. we will put into three parameters.like this: ./camera /dev/video0 640x480. So we don't have myself name?-name is 64 line
